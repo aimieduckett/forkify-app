@@ -7,24 +7,41 @@
     <title>Object Oriented Programming (OOP) With JavaScript</title>
     <style>
       body {
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        background: linear-gradient(to top left, #28b487, #7dd56f);
+        margin: 0px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
       }
-      h1 {
-        font-family: sans-serif;
-        font-size: 50px;
-        line-height: 1.3;
+      article {
+        height: 100%;
         width: 100%;
-        padding: 30px;
-        text-align: center;
-        color: white;
+      }
+
+      article:nth-child(1) {
+        background-color: red;
+      }
+
+      article:nth-child(2) {
+        background-color: yellow;
+      }
+
+      article:nth-child(3) {
+        background-color: blue;
+      }
+
+      article:nth-child(4) {
+        background-color: green;
       }
     </style>
     <script defer src="script.js"></script>
   </head>
-  <body>
-    <h1>Object Oriented Programming (OOP) With JavaScript</h1>
+
+<body>
+  <article>First</article>
+  <article>Second</article>
+  <article>Third</article>
+  <article>Fourth</article>
+</body>
+</html>
+
   </body>
 </html>
